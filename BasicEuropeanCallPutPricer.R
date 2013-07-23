@@ -30,9 +30,9 @@ BSPricer <- function(CallOrPut = "CALL", SpotPrice = 20, Strike = 19, Vol = 0.25
   
   return(list(Price = Price, Delta = Delta, Gamma = Gamma,d1,d2))}
   
-  #########
+  ##########
   #PUT
-  #########
+  ##########
   if(CallOrPut == "PUT"){
   
   Price = Strike*exp(-RiskFree*T)*pnorm(-d2) - SpotPrice*pnorm(-d1)
