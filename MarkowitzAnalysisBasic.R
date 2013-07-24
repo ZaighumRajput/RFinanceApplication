@@ -1,4 +1,6 @@
 #Markowitz Analysis
+##Recall the Markowitz Problem
+##
 ####SAMPLE DATA
 mu = c(4.27, 0.15, 2.85)
 names(mu) <- c("MSFT", "NRDS", "STBX")
